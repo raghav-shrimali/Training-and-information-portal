@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.intro {
+    margin-bottom: 40px;
+}
+
+.courses, .placement-records, .certifications, .contact, .signup {
+    margin-bottom: 20px;
+}
+
+.courses ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.courses li {
+    margin: 10px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+.certifications p, .contact p {
+    margin: 10px 0;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.signup form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup label {
+    margin: 10px 0 5px;
+}
+
+.signup input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    max-width: 300px;
+}
+
+.signup button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
